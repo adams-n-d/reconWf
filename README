@@ -1,4 +1,4 @@
-This is a parallel implementation of wave front reconstruction for adaptive optics. Ground-based telescope produced blurred images of objects in space, due to atmospheric turbulence that distorts the incoming light waves. By observing how the light wave is changing (i.e., the phase gradient), we send that information to a deformable mirror in the telescope approximates a counter wave front that reduces the blur in real time. For further explanation and speedup analysis for this parallel implementation, email me.
+This is a parallel implementation of wave front reconstruction for adaptive optics. Ground-based telescopes produce blurred images of objects in space, due to atmospheric turbulence that distorts the incoming light waves. By observing how the light wave is changing (i.e., the phase gradient), we send that information to a deformable mirror in the telescope approximates a counter wave front that reduces the blur in real time. For further explanation and speedup analysis for this parallel implementation, email me.
 
 
 These codes will run a simple test with:
