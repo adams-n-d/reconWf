@@ -1,0 +1,19 @@
+
+These codes will run a simple test with:
+* Atmospheric layers:  1
+* Frames:             10
+* Lowrese Size:       64-by-64
+
+Start by trying to compile and run this code.  You'll need to edit
+the first line of the makefile, so that you can use the Trilinos
+include files.
+
+If it compiles, then try to run it, using, say:
+
+  mpirun -np 1 MyLSQR
+
+or 
+
+  mpirun -np 4 MyLSQR
+
+Configuration for number of frames and problem size reside a macros in script.hpp
